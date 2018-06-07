@@ -1,0 +1,20 @@
+{
+    "name":         "IMHLabs/test-propel2-data-structure",
+    "description":  "Sample Data Structure",
+    "type":         "library",
+    "keywords": [
+        "Propel",
+		"Data Structure"
+    ],
+    "authors": [
+        {
+            "name":      "Inmotion Hosting",
+            "email":     "development@inmotionhosting.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "classmap": [ "src/" ]
+    }
+}
+
