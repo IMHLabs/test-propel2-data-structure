@@ -1,0 +1,11 @@
+<database name="test_propel2_data_structure" defaultIdMethod="native"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://xsd.propelorm.org/1.6/database.xsd" 
+	tablePrefix="test_" >
+    <behavior name="auto_add_pk" />
+    <behavior name="timestampable" />
+	<table namespace="TestPropel2DataStructure" name="test_table" phpName="TestTable">
+	    <column name="name" phpName="Name" type="VARCHAR" size="255" />
+	    <column name="value" phpName="Value" type="LONGVARCHAR" />
+	</table>
+</database>
